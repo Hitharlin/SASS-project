@@ -1,0 +1,71 @@
+@import url("./var.css");
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro .container {
+  width: 1130px;
+  margin: 0 auto;
+}
+.intro .header__burger-wrapper {
+  display: none;
+}
+.intro .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro .description {
+  width: 50%;
+}
+.intro .title {
+  display: inline-block;
+  font-size: 28px;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+.intro .subtitle {
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 30px;
+}
+.intro .details {
+  color: var(--secondary-light);
+  margin-bottom: 42px;
+  line-height: 32px;
+}
+.intro .button {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.intro .button-icon {
+  margin-left: 19px;
+}
+.intro .image-wrapper {
+  width: 50%;
+}
+.intro .image {
+  width: 100%;
+  display: block;
+  padding: 0 40px;
+}
+
+.base-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 18px 22px;
+  border-radius: 4px;
+}
+
+.base-button:hover {
+  cursor: pointer;
+}
+
+.base-button--primary {
+  background-color: var(--primary);
+  color: var(--white);
+}/*# sourceMappingURL=style.css.map */
